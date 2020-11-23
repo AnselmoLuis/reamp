@@ -1,6 +1,10 @@
 import com.reamp.reamp.model.City;
 import com.reamp.reamp.service.OpenWeatherMapService;
 
+import lombok.AllArgsConstructor;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.*;
+
 @RestController
 @AllArgsContructor
 @RequestMapping("v1/maping")
